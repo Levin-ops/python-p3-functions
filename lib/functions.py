@@ -10,10 +10,11 @@ def greet_with_default(name="programmer"):
     print(f"Hello, {name}!")
 
 def add(num1, num2):
-    print(num1 + num2)
+    return (num1+ num2)
+    
 
 def halve(number):
-    if number is not int:
-        print("Null")
+    if number is float:
+        return(number/2)
     else:    
-        print(number/2)
+        return(number/2)
